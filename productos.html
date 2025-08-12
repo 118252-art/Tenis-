@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - NeoSneakers</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0a0a0a;
+            color: white;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: #0ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #f0f;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #0ff;
+        }
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .producto {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            padding-bottom: 15px;
+        }
+        .producto img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+        .producto h3 {
+            margin: 10px 0;
+            color: #0ff;
+        }
+        .producto p {
+            color: #ccc;
+            font-size: 0.9em;
+            padding: 0 10px;
+        }
+        .producto:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #0ff;
+        }
+        .precio {
+            font-size: 1.2em;
+            color: #f0f;
+            margin-top: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>NeoSneakers</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Catálogo de Productos</h1>
+
+    <section class="productos">
+        <div class="producto">
+            <img src="https://wallpapers.com/images/hd/4k-white-nike-shoe-on-carpet-4jlwk1qxozddo3t6.jpg" alt="Modelo Alpha">
+            <h3>Modelo Alpha</h3>
+            <p>Tenis ligeros con diseño aerodinámico para máxima velocidad.</p>
+            <div class="precio">$2,499 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d130fcfa-7169-4172-8955-bf39cc544527/NIKE+VOMERO+18.png" alt="Modelo Orion">
+            <h3>Modelo Orion</h3>
+            <p>Futurismo y comodidad para tu día a día.</p>
+            <div class="precio">$2,799 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://sneakerbardetroit.com/wp-content/uploads/2025/02/Nike-Air-Max-Dn8-Aqua-Dusty-Cactus-Persian-Violet-FQ7860-500-1068x736.png" alt="Modelo Nova">
+            <h3>Modelo Nova</h3>
+            <p>Perfectos para correr y lucir moderno.</p>
+            <div class="precio">$3,199 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/da65bdd4-2934-47d8-8df1-1c1af2c2835f/W+AIR+MAX+DN8.png" alt="Modelo Eclipse">
+            <h3>Modelo Eclipse</h3>
+            <p>Edición limitada con detalles de lujo.</p>
+            <div class="precio">$3,499 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://nikeco.vtexassets.com/arquivos/ids/803741-800-auto?v=638743810737500000&width=800&height=auto&aspect=true" alt="Modelo Phantom">
+            <h3>Modelo Phantom</h3>
+            <p>Diseño minimalista y ultraligero.</p>
+            <div class="precio">$2,999 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/601feabb-fa28-42b7-bd24-123274013d80/NIKE+PEGASUS+PREMIUM.png" alt="Modelo Pulse">
+            <h3>Modelo Pulse</h3>
+            <p>Con amortiguación avanzada para mayor confort.</p>
+            <div class="precio">$2,899 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://nikeclprod.vtexassets.com/arquivos/ids/1292755-800-800?v=638804192798130000&width=800&height=800&aspect=true" alt="Modelo Blaze">
+            <h3>Modelo Blaze</h3>
+            <p>Inspirados en la velocidad de la luz.</p>
+            <div class="precio">$3,050 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://static.flexdog.cz/flexdog-2/products/images/ec9934c7-17ff-41fe-a516-cbc7de075ee5.png" alt="Modelo Titan">
+            <h3>Modelo Titan</h3>
+            <p>Durabilidad extrema y resistencia a impactos.</p>
+            <div class="precio">$3,299 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://nikeclprod.vtexassets.com/arquivos/ids/1273713/FQ7860_100_A_PREM.jpg?v=638798994507430000" alt="Modelo Aero">
+            <h3>Modelo Aero</h3>
+            <p>Perfectos para entrenamientos de alto rendimiento.</p>
+            <div class="precio">$2,650 MXN</div>
+        </div>
+        <div class="producto">
+            <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/ec9bc004-458c-4f2b-abc9-8c0f32e36586/AIR+MAX+DN8.png" alt="Modelo Vortex">
+            <h3>Modelo Vortex</h3>
+            <p>Diseño envolvente para máximo ajuste y confort.</p>
+            <div class="precio">$3,100 MXN</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>📩 contacto@neosneakers.com</p>
+        <p>© 2025 NeoSneakers - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
